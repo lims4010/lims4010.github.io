@@ -2,3 +2,21 @@ my-img {
   height: 200px;
   width: auto;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img[src*="#left"] {
+  float: left;
+}
+img[src*="#right"] {
+  float: right;
+}
+img[src*="#center"] {
+  display: block;
+  margin: auto;
+}
